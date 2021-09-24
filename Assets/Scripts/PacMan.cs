@@ -18,9 +18,10 @@ public class PacMan : MonoBehaviour
     {
         float step = speed * Time.deltaTime; 
         transform.position = Vector3.MoveTowards(transform.position, positionArray[i], step);
+
         if (Vector3.Distance(transform.position, positionArray[i]) < 0.001f)
         {
-
+            pocMan.transform.Rotate(0.0f, 0.0f, 90.0f, Space.Self);
             if (i == 3)
             {
                 i = 0;
