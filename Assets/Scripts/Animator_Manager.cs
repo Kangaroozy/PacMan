@@ -3,11 +3,11 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class Animator_Manager : MonoBehaviour
 {
-    public SpriteRenderer spriteRenderer { get; private set; }
     public Sprite[] sprites = new Sprite[0];
-    public float time = 0.25f;
+    public SpriteRenderer spriteRenderer { get; private set; }
     public int frame { get; private set; }
     public bool loop = true;
+    public float time = 0.25f;
 
     private void Awake()
     {
@@ -16,10 +16,10 @@ public class Animator_Manager : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating(nameof(Advance), this.time, this.time);
+        InvokeRepeating(nameof(LoopSprites), this.time, this.time);
     }
 
-    private void Advance()
+    private void LoopSprites()
     {
         if (!this.spriteRenderer.enabled)
         {
@@ -43,7 +43,7 @@ public class Animator_Manager : MonoBehaviour
     {
         this.frame = -1;
 
-        Advance();
+        LoopSprites();
     }
 
 }
