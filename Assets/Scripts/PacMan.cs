@@ -8,10 +8,10 @@ public class PacMan : MonoBehaviour
     public GameObject pocMan;
 
 
-    Vector3[] positionArray = new[] { new Vector3(-9.15f, 14.3f, -9.0f),
-                                      new Vector3(-3.8f, 14.3f, -9.0f),
-                                      new Vector3(-3.8f, 10.2f, -9.0f),
-                                      new Vector3(-9.15f, 10.2f, -9.0f)
+    Vector3[] positionArray = new[] { new Vector3(-8.5f, 2.6f, -9.65f),
+                                      new Vector3(-3.5f, 2.7f, -9.65f),
+                                      new Vector3(-3.45f, -1.4f, -9.65f),
+                                      new Vector3(-8.55f, -1.35f, -9.65f)
      };
 
     void Update()
