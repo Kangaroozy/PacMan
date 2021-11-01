@@ -123,7 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &230313771
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,8 +227,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-=======
->>>>>>> ui
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,10 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701903578}
   - component: {fileID: 701903577}
-<<<<<<< HEAD
-=======
   - component: {fileID: 701903579}
->>>>>>> ui
   m_Layer: 0
   m_Name: Ghost-2
   m_TagString: Untagged
@@ -764,10 +758,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1012807228}
   - component: {fileID: 1012807227}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 1012807229}
->>>>>>> ui
   m_Layer: 0
   m_Name: Ghost-3
   m_TagString: Untagged
@@ -840,7 +830,6 @@ Transform:
   m_Father: {fileID: 1336386396}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1150319380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,15 +1140,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &1315428321
-=======
---- !u!114 &1012807229
->>>>>>> ui
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1315428318}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1192,16 +1177,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315428318}
   m_CullTransparentMesh: 1
-=======
-  m_GameObject: {fileID: 1012807225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a802e7251895ab248835dd04acf2f209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObject: {fileID: 1012807225}
-  time: 3
->>>>>>> ui
 --- !u!1 &1336386395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,11 +1429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414982383}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-<<<<<<< HEAD
-  m_LocalPosition: {x: -9.15, y: 14.3, z: 158}
-=======
-  m_LocalPosition: {x: -8.53, y: 2.5, z: -9.64}
->>>>>>> ui
+  m_LocalPosition: {x: -8.48, y: 2.61, z: 158}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1600,10 +1571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661741412}
   - component: {fileID: 1661741411}
-<<<<<<< HEAD
-=======
   - component: {fileID: 1661741413}
->>>>>>> ui
   m_Layer: 0
   m_Name: Ghost-4
   m_TagString: Untagged
@@ -1700,10 +1668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701307908}
   - component: {fileID: 1701307907}
-<<<<<<< HEAD
-=======
   - component: {fileID: 1701307909}
->>>>>>> ui
   m_Layer: 0
   m_Name: Ghost-1
   m_TagString: Untagged
@@ -8942,7 +8907,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-<<<<<<< HEAD
 --- !u!1 &1818261172
 GameObject:
   m_ObjectHideFlags: 0
@@ -9103,5 +9067,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097512574}
   m_CullTransparentMesh: 1
-=======
->>>>>>> ui
