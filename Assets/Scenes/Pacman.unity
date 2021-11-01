@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &230313771
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,6 +228,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+=======
+>>>>>>> ui
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.76, y: 0.98, z: -10.06}
+  m_LocalPosition: {x: 4.63, y: -11.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -320,6 +323,10 @@ GameObject:
   m_Component:
   - component: {fileID: 701903578}
   - component: {fileID: 701903577}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 701903579}
+>>>>>>> ui
   m_Layer: 0
   m_Name: Ghost-2
   m_TagString: Untagged
@@ -386,12 +393,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701903575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.438735, y: -2.4295006, z: 142.66656}
+  m_LocalPosition: {x: 3.85, y: -14, z: 142.66656}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1336386396}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &701903579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701903575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a802e7251895ab248835dd04acf2f209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObject: {fileID: 701903575}
+  time: 3
 --- !u!1 &706758065
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +547,7 @@ Tilemap:
   m_GameObject: {fileID: 817707534}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: -10, y: -11, z: 0}
+  - first: {x: -9, y: -23, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -568,8 +589,8 @@ Tilemap:
     m_Data: {fileID: 337628986085930197, guid: 54d665b126efc3448aa98a21659176b1, type: 3}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -10, y: -11, z: 0}
-  m_Size: {x: 10, y: 11, z: 1}
+  m_Origin: {x: -10, y: -23, z: 0}
+  m_Size: {x: 10, y: 23, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -743,6 +764,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1012807228}
   - component: {fileID: 1012807227}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1012807229}
+>>>>>>> ui
   m_Layer: 0
   m_Name: Ghost-3
   m_TagString: Untagged
@@ -809,12 +834,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012807225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.438735, y: -2.4295006, z: 142.66656}
+  m_LocalPosition: {x: 5.85, y: -14, z: 142.66656}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1336386396}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1150319380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,11 +1151,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &1315428321
+=======
+--- !u!114 &1012807229
+>>>>>>> ui
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1315428318}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1162,6 +1192,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315428318}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 1012807225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a802e7251895ab248835dd04acf2f209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObject: {fileID: 1012807225}
+  time: 3
+>>>>>>> ui
 --- !u!1 &1336386395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,7 +1454,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414982383}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+<<<<<<< HEAD
   m_LocalPosition: {x: -9.15, y: 14.3, z: 158}
+=======
+  m_LocalPosition: {x: -8.53, y: 2.5, z: -9.64}
+>>>>>>> ui
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1556,6 +1600,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1661741412}
   - component: {fileID: 1661741411}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1661741413}
+>>>>>>> ui
   m_Layer: 0
   m_Name: Ghost-4
   m_TagString: Untagged
@@ -1622,12 +1670,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661741409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.438735, y: -2.4295006, z: 142.66656}
+  m_LocalPosition: {x: 7.78, y: -14, z: 142.66656}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1336386396}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661741413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661741409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a802e7251895ab248835dd04acf2f209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObject: {fileID: 1661741409}
+  time: 3
 --- !u!1 &1701307905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,6 +1700,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1701307908}
   - component: {fileID: 1701307907}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1701307909}
+>>>>>>> ui
   m_Layer: 0
   m_Name: Ghost-1
   m_TagString: Untagged
@@ -1704,12 +1770,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701307905}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4387349, y: -2.4295006, z: 142.66656}
+  m_LocalPosition: {x: 1.92, y: -14, z: 142.66656}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1336386396}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1701307909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701307905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a802e7251895ab248835dd04acf2f209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObject: {fileID: 1701307905}
+  time: 3
 --- !u!1 &1738796703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,8 +1816,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738796703}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 11.72, z: 0}
-  m_LocalScale: {x: 1.065, y: 1.0068, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 706758067}
   m_RootOrder: 0
@@ -8862,6 +8942,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
 --- !u!1 &1818261172
 GameObject:
   m_ObjectHideFlags: 0
@@ -9022,3 +9103,5 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097512574}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> ui
